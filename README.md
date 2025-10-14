@@ -53,7 +53,7 @@ docker pull zlzbme/zlz_prostate_mri_gland_seg:latest
 
 **Run example:**
 ```bash
-docker run -it --name gland_seg_test   -v /path/to/your/data:/usr/src/app/data   zlzbme/zlz_prostate_mri_gland_seg   --Data_dir /usr/src/app/data
+docker run -it --name gland_seg_test   -v /path/to/your/data/mri:/usr/src/app/data   zlzbme/zlz_prostate_mri_gland_seg   --Data_dir /usr/src/app/data
 ```
 
 **Citation:**  
