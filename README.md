@@ -73,7 +73,7 @@ docker pull zlzbme/zlz_prostate_mri_cspca_seg:latest
 
 **Run example:**
 ```bash
-docker run -it --name cspca_seg_test   -v /path/to/your/data:/usr/src/app/data   zlzbme/zlz_prostate_mri_cspca_seg   --Data_dir /usr/src/app/data
+docker run -it --name cspca_seg_test   -v /path/to/your/data:/usr/src/app/data/t2w (and adc)   zlzbme/zlz_prostate_mri_cspca_seg   --Data_dir /usr/src/app/data
 ```
 
 **Citation:**  
@@ -93,15 +93,6 @@ If you use these models in your research, please cite the following works:
 
 ---
 
-## 🏥 Authors & Acknowledgments
-
-**Lead Developer:** [Zelin Zhang](https://scholar.google.com/)  
-**Principal Investigator:** Prof. [Anant Madabhushi](https://bme.emory.edu/people/faculty/madabhushi-anant.html)  
-**Lab:** Computational Imaging and AI in Medicine (CIAIM)  
-**Institution:** Department of Biomedical Engineering, Emory University  
-
----
-
 ## 📜 License
 
 This project is released under the [MIT License](LICENSE).
@@ -116,7 +107,7 @@ This project is released under the [MIT License](LICENSE).
 
 ---
 
-> © 2025 Computational Imaging and AI in Medicine Lab, Emory University  
+> © 2025 Emory Empathetic AI for Health Institute (https://aihealth.emory.edu/) / Madabhushi Lab (https://med.emory.edu/departments/radiology/research/research-labs/madabhushi-lab/index.html), Emory University  
 > For academic and research use only.
 
 
