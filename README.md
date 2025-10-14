@@ -34,12 +34,6 @@ docker pull zlzbme/zlz_prostate_mri_tzpz_seg:latest
 ```bash
 docker run -it --name tzpz_seg_test   -v /path/to/your/data/mri:/usr/src/app/data   zlzbme/zlz_prostate_mri_tzpz_seg   --Data_dir /usr/src/app/data
 ```
-
-**Citation:**
-> Zhang, Z., Yang, Q., Shiradkar, R., Mirtti, T., Azamat, S., Xuan, K., Xu, J., & Madabhushi, A.  
-> *A deep learning derived prostate zonal biomarker from T2-weighted MRI to distinguish between prostate cancer and benign prostatic hyperplasia.*  
-> *Medical Physics*, 2025. DOI: [10.1002/mp.18053](https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.18053)
-
 ---
 
 ### 2️⃣ ProStaNet (Gland) — Whole Prostate Gland Segmentation
@@ -55,11 +49,6 @@ docker pull zlzbme/zlz_prostate_mri_gland_seg:latest
 ```bash
 docker run -it --name gland_seg_test   -v /path/to/your/data/mri:/usr/src/app/data   zlzbme/zlz_prostate_mri_gland_seg   --Data_dir /usr/src/app/data
 ```
-
-**Citation:**  
-> Zhang et al., *ProStaNet: A multi-scale 3D feature pyramid network for automatic detection and segmentation of clinically significant prostate cancer (csPCa) on MRI.*  
-> *Journal of Urology*, 2025. DOI: [10.1097/01.JU.0001110136.41716.b7.25](https://www.auajournals.org/doi/abs/10.1097/01.JU.0001110136.41716.b7.25)
-
 ---
 
 ### 3️⃣ ProStaNet (csPCa) — Clinically Significant Prostate Cancer Segmentation
@@ -75,14 +64,9 @@ docker pull zlzbme/zlz_prostate_mri_cspca_seg:latest
 ```bash
 docker run -it --name cspca_seg_test   -v /path/to/your/data:/usr/src/app/data/t2w (and adc)   zlzbme/zlz_prostate_mri_cspca_seg   --Data_dir /usr/src/app/data
 ```
-
-**Citation:**  
-> Zhang et al., *ProStaNet: A multi-scale 3D feature pyramid network for automatic detection and segmentation of clinically significant prostate cancer (csPCa) on MRI.*  
-> *Journal of Urology*, 2025. DOI: [10.1097/01.JU.0001110136.41716.b7.25](https://www.auajournals.org/doi/abs/10.1097/01.JU.0001110136.41716.b7.25)
-
 ---
 
-## 📚 Citation Summary
+## 📚 Citation 
 
 If you use these models in your research, please cite the following works:
 
