@@ -18,6 +18,26 @@ Each model is released as a **Dockerized image** for reproducible segmentation a
 | **ProStaNet (csPCa)** | Clinically significant prostate cancer segmentation | T2w + ADC (co-registered) MRI | [`zlzbme/zlz_prostate_mri_cspca_seg`](https://hub.docker.com/r/zlzbme/zlz_prostate_mri_cspca_seg) | *Zhang et al.*, *J. Urology*, 2025 ([DOI: 10.1097/01.JU.0001110136.41716.b7.25](https://www.auajournals.org/doi/abs/10.1097/01.JU.0001110136.41716.b7.25)) |
 
 ---
+## 📁 Folder Structure
+
+Organize your input data as follows before running the models:
+
+### For **ProZonaNet** and **ProStaNet (Gland)**:
+```
+/data/
+└── mri/          ← your T2W files
+```
+
+### For **ProStaNet (csPCa)**:
+```
+/data/
+├── t2w/          ← your T2W files
+└── adc/          ← your ADC files
+```
+
+> ⚠️ The filenames of T2W and ADC images must be **identical** between folders (e.g., `case001.nii.gz` in both `t2w/` and `adc/`).
+
+---
 
 ## 🧪 Model Usage
 
