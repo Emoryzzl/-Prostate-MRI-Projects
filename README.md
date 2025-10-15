@@ -22,7 +22,7 @@ Each model is released as a **Dockerized image** for reproducible segmentation a
 
 Organize your input data as follows before running the models:
 
-### For **ProZonaNet** and **ProStaNet (Gland)**:
+### For **ProZonaNet (TZPZ)** and **ProStaNet (Gland)**:
 ```
 /data/
 └── mri/          ← your T2W files
