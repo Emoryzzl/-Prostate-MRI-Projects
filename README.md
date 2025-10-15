@@ -84,6 +84,7 @@ docker pull zlzbme/zlz_prostate_mri_cspca_seg:latest
 ```bash
 docker run -it --name cspca_seg_test   -v /path/to/your/data:/usr/src/app/data/t2w (and adc)   zlzbme/zlz_prostate_mri_cspca_seg   --Data_dir /usr/src/app/data
 ```
+> ⚠️ Ensure that T2W and ADC files have **matching filenames** between `/t2w/` and `/adc/` directories.
 ---
 
 ## 📚 Citation 
